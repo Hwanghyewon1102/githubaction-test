@@ -1,12 +1,18 @@
-FROM ubuntu:22.04
+FROM openjdk:17
 
-RUN mkdir -p /scripts
-COPY install_docker_engine.sh /scripts
+ARG VERSION
 
-WORKDIR /scripts
+COPY target/stswebjpa-0.0.1-SNAPSHOT.jar /app/stswebjpa.jar
 
-RUN chmod +x install_docker_engine.sh
-RUN ./install_docker_engine.sh
+LABEL title="Member App" \
+      version="$VERSION" \
+      description="This image is member service"
 
-RUN apt-get install -y docker-ce docker-ce-cli
+ENV APP_HOME /app
+EXPOSE 8080
+VOLUME /app/upload
+
+WORKDIR $APP_HOME
+ENTRYPOINT ["java"]
+CMD ["-jar", "stswebjpa.jar"]
 
