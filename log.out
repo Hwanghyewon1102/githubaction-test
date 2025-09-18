@@ -8,24 +8,17 @@
 
  :: Spring Boot ::                (v3.3.4)
 
-2025-09-17T11:41:03.103+09:00  INFO 41689 --- [           main] kr.goodee.StswebjpaApplication           : Starting StswebjpaApplication v0.0.1-SNAPSHOT using Java 21.0.8 with PID 41689 (/home/hwang1102/stswebjpa/target/stswebjpa-0.0.1-SNAPSHOT.jar started by root in /home/hwang1102)
-2025-09-17T11:41:03.106+09:00  INFO 41689 --- [           main] kr.goodee.StswebjpaApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-09-17T11:41:03.846+09:00  INFO 41689 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-17T11:41:03.910+09:00  INFO 41689 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
-2025-09-17T11:41:04.428+09:00  INFO 41689 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 80 (http)
-2025-09-17T11:41:04.444+09:00  INFO 41689 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-17T11:41:04.445+09:00  INFO 41689 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
-2025-09-17T11:41:04.481+09:00  INFO 41689 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-09-17T11:41:04.482+09:00  INFO 41689 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1320 ms
-2025-09-17T11:41:04.634+09:00  INFO 41689 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-17T11:41:04.712+09:00  INFO 41689 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2025-09-17T11:41:04.751+09:00  INFO 41689 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-09-17T11:41:05.086+09:00  INFO 41689 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-17T11:41:05.115+09:00  INFO 41689 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-09-17T11:41:05.212+09:00  INFO 41689 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@64dc86c6
-2025-09-17T11:41:05.214+09:00  INFO 41689 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-09-17T11:41:05.923+09:00  INFO 41689 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-17T11:41:05.951+09:00  INFO 41689 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-17T11:41:06.287+09:00  WARN 41689 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-17T11:41:06.675+09:00  INFO 41689 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 80 (http) with context path '/'
-2025-09-17T11:41:06.695+09:00  INFO 41689 --- [           main] kr.goodee.StswebjpaApplication           : Started StswebjpaApplication in 4.013 seconds (process running for 4.611)
+2025-09-18T09:17:04.686+09:00  INFO 2737 --- [           main] kr.goodee.StswebjpaApplication           : Starting StswebjpaApplication v0.0.1-SNAPSHOT using Java 21.0.8 with PID 2737 (/home/hwang1102/stswebjpa/target/stswebjpa-0.0.1-SNAPSHOT.jar started by root in /home/hwang1102)
+2025-09-18T09:17:04.689+09:00  INFO 2737 --- [           main] kr.goodee.StswebjpaApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-09-18T09:17:05.330+09:00  INFO 2737 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-18T09:17:05.379+09:00  INFO 2737 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
+2025-09-18T09:17:05.847+09:00  INFO 2737 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 80 (http)
+2025-09-18T09:17:05.859+09:00  INFO 2737 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-18T09:17:05.859+09:00  INFO 2737 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-09-18T09:17:05.890+09:00  INFO 2737 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-18T09:17:05.891+09:00  INFO 2737 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1154 ms
+2025-09-18T09:17:06.028+09:00  INFO 2737 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-18T09:17:06.068+09:00  INFO 2737 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-09-18T09:17:06.096+09:00  INFO 2737 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-18T09:17:06.359+09:00  INFO 2737 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-18T09:17:06.388+09:00  INFO 2737 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
